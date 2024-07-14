@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-LocalTool/Pods-LocalTool-frameworks.sh
+${BUILT_PRODUCTS_DIR}/QuicklySwift/QuicklySwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/YYText/YYText.framework

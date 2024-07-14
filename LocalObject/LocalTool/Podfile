@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'LocalTool' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LocalTool
+  pod 'QuicklySwift'
+  pod 'YYText'
+
+  
+  #导入本地私有库
+  pod 'LKUIKit', :path =>'../LKLib/LKUIKit'
+
+end
