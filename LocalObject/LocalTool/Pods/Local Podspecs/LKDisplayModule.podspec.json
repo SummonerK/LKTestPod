@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "LKDisplayModule/Classes/**/*"
+  "source_files": "LKDisplayModule/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "YYText": [
+
+    ],
+    "LKUtils": [
+
+    ]
+  }
 }

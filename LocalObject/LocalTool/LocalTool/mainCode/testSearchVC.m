@@ -7,7 +7,7 @@
 
 #import "testSearchVC.h"
 #import <LKUtils/LKMacroDefine.h>
-#import <LKUIDisplayModule/UserAgreeVC.h>
+#import <LKDisplayModule/UserAgreeVC.h>
 
 @interface testSearchVC ()
 @property (weak, nonatomic) IBOutlet UITextField *tf_search;

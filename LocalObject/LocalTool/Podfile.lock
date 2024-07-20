@@ -1,5 +1,8 @@
 PODS:
-  - LKDisplayModule (0.1.0)
+  - LKDisplayModule (0.1.0):
+    - LKUtils
+    - Masonry
+    - YYText
   - LKUtils (0.1.0):
     - YYCategories
   - Masonry (1.1.0)
@@ -28,7 +31,7 @@ EXTERNAL SOURCES:
     :path: "./LKLib/LKUtils"
 
 SPEC CHECKSUMS:
-  LKDisplayModule: 21ee373555575b1190b11b75d4332e2db152077c
+  LKDisplayModule: 3d93c06698bc8a8531b73ec2a30f5d8b4c70b719
   LKUtils: 70ef41c29a8fa565ba9a22e785bedd226b82680d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
