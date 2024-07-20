@@ -6,10 +6,11 @@
 //
 
 #import "ViewController.h"
-#import <QuicklySwift/QuicklySwift-Swift.h>
-#import "QuickLook/QuickLook.h"
+#import <LKUtils/LKGenesis.h>
+#import <LKUtils/SearchTransitionAnimator.h>
+#import "testSearchVC.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIViewControllerTransitioningDelegate>
 
 @end
 
@@ -21,20 +22,28 @@
     // Do any additional setup after loading the view.
 }
 
-/// <#Description#>
-/// - Parameter sender: <#sender description#>
-/// 
-/// songj |wus|yangx
-/// yanpox|panjinl|panxiux
-///
-///
-///
-///
 - (IBAction)showSomePopMenu:(id)sender {
-    QuicklyPopmenu * pop = [[QuicklyPopmenu alloc] init];
-
-    
+    [LKGenesis LKGenesisSay];
 }
 
+- (IBAction)gotoSearchTrans:(id)sender {
+    testSearchVC * vc = [[testSearchVC alloc] initWithNibName:@"testSearchVC" bundle:nil];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    vc.transitioningDelegate = self;
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+#pragma mark UIViewControllerTransitioningDelegate
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    SearchTransitionAnimator *transitionAnimator = [SearchTransitionAnimator new];
+    transitionAnimator.isFromeSearch = NO;
+    return transitionAnimator;
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    SearchTransitionAnimator *transitionAnimator = [SearchTransitionAnimator new];
+    transitionAnimator.isFromeSearch = YES;
+    return transitionAnimator;
+}
 
 @end

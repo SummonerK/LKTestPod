@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B46BF52C3B872800FC0744 /* XMFriendsCircleDynamicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46BF32C3B872800FC0744 /* XMFriendsCircleDynamicHelper.m */; };
+		01C7CE1C2C4623C500C0C4E8 /* testSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C7CE1B2C4623C500C0C4E8 /* testSearchVC.xib */; };
+		01C7CE1D2C4623C500C0C4E8 /* testSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE1A2C4623C500C0C4E8 /* testSearchVC.m */; };
 		01E76CDF2C33B1F300143560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E76CDE2C33B1F300143560 /* AppDelegate.m */; };
 		01E76CE22C33B1F300143560 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E76CE12C33B1F300143560 /* SceneDelegate.m */; };
 		01E76CE52C33B1F300143560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E76CE42C33B1F300143560 /* ViewController.m */; };
@@ -16,13 +17,13 @@
 		01E76CED2C33B1F400143560 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01E76CEC2C33B1F400143560 /* Base */; };
 		01E76CF02C33B1F400143560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E76CEF2C33B1F400143560 /* main.m */; };
 		01E76CFA2C33EA8B00143560 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E76CF92C33EA8B00143560 /* File.swift */; };
-		01E76CFC2C33EACD00143560 /* QuicklySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E76CFB2C33EACC00143560 /* QuicklySwift.framework */; };
 		8C09407770230F84AE42F80A /* Pods_LocalTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6194B4B3B6D31134F31BB2D6 /* Pods_LocalTool.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01B46BF32C3B872800FC0744 /* XMFriendsCircleDynamicHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFriendsCircleDynamicHelper.m; sourceTree = "<group>"; };
-		01B46BF42C3B872800FC0744 /* XMFriendsCircleDynamicHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFriendsCircleDynamicHelper.h; sourceTree = "<group>"; };
+		01C7CE192C4623C500C0C4E8 /* testSearchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testSearchVC.h; sourceTree = "<group>"; };
+		01C7CE1A2C4623C500C0C4E8 /* testSearchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSearchVC.m; sourceTree = "<group>"; };
+		01C7CE1B2C4623C500C0C4E8 /* testSearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testSearchVC.xib; sourceTree = "<group>"; };
 		01E76CDA2C33B1F300143560 /* LocalTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E76CDD2C33B1F300143560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E76CDE2C33B1F300143560 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		01E76CEF2C33B1F400143560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01E76CF82C33EA8B00143560 /* LocalTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalTool-Bridging-Header.h"; sourceTree = "<group>"; };
 		01E76CF92C33EA8B00143560 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		01E76CFB2C33EACC00143560 /* QuicklySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuicklySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A5A43E868225ACBFAE4D25 /* Pods-LocalTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalTool.debug.xcconfig"; path = "Target Support Files/Pods-LocalTool/Pods-LocalTool.debug.xcconfig"; sourceTree = "<group>"; };
 		6194B4B3B6D31134F31BB2D6 /* Pods_LocalTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA67C1A7954C74745F0F09A /* Pods-LocalTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalTool.release.xcconfig"; path = "Target Support Files/Pods-LocalTool/Pods-LocalTool.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E76CFC2C33EACD00143560 /* QuicklySwift.framework in Frameworks */,
 				8C09407770230F84AE42F80A /* Pods_LocalTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +55,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01C7CE052C44B0EB00C0C4E8 /* baseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01E76CDD2C33B1F300143560 /* AppDelegate.h */,
+				01E76CDE2C33B1F300143560 /* AppDelegate.m */,
+				01E76CE02C33B1F300143560 /* SceneDelegate.h */,
+				01E76CE12C33B1F300143560 /* SceneDelegate.m */,
+				01E76CE32C33B1F300143560 /* ViewController.h */,
+				01E76CE42C33B1F300143560 /* ViewController.m */,
+				01E76CF92C33EA8B00143560 /* File.swift */,
+				01E76CE62C33B1F300143560 /* Main.storyboard */,
+				01E76CE92C33B1F400143560 /* Assets.xcassets */,
+				01E76CEB2C33B1F400143560 /* LaunchScreen.storyboard */,
+				01E76CEE2C33B1F400143560 /* Info.plist */,
+				01E76CEF2C33B1F400143560 /* main.m */,
+				01E76CF82C33EA8B00143560 /* LocalTool-Bridging-Header.h */,
+			);
+			name = baseViewController;
+			sourceTree = "<group>";
+		};
 		01E76CD12C33B1F300143560 = {
 			isa = PBXGroup;
 			children = (
@@ -77,20 +96,8 @@
 		01E76CDC2C33B1F300143560 /* LocalTool */ = {
 			isa = PBXGroup;
 			children = (
+				01C7CE052C44B0EB00C0C4E8 /* baseViewController */,
 				01E76CF62C33E9DE00143560 /* mainCode */,
-				01E76CDD2C33B1F300143560 /* AppDelegate.h */,
-				01E76CDE2C33B1F300143560 /* AppDelegate.m */,
-				01E76CE02C33B1F300143560 /* SceneDelegate.h */,
-				01E76CE12C33B1F300143560 /* SceneDelegate.m */,
-				01E76CE32C33B1F300143560 /* ViewController.h */,
-				01E76CE42C33B1F300143560 /* ViewController.m */,
-				01E76CF92C33EA8B00143560 /* File.swift */,
-				01E76CE62C33B1F300143560 /* Main.storyboard */,
-				01E76CE92C33B1F400143560 /* Assets.xcassets */,
-				01E76CEB2C33B1F400143560 /* LaunchScreen.storyboard */,
-				01E76CEE2C33B1F400143560 /* Info.plist */,
-				01E76CEF2C33B1F400143560 /* main.m */,
-				01E76CF82C33EA8B00143560 /* LocalTool-Bridging-Header.h */,
 			);
 			path = LocalTool;
 			sourceTree = "<group>";
@@ -98,8 +105,9 @@
 		01E76CF62C33E9DE00143560 /* mainCode */ = {
 			isa = PBXGroup;
 			children = (
-				01B46BF42C3B872800FC0744 /* XMFriendsCircleDynamicHelper.h */,
-				01B46BF32C3B872800FC0744 /* XMFriendsCircleDynamicHelper.m */,
+				01C7CE192C4623C500C0C4E8 /* testSearchVC.h */,
+				01C7CE1A2C4623C500C0C4E8 /* testSearchVC.m */,
+				01C7CE1B2C4623C500C0C4E8 /* testSearchVC.xib */,
 			);
 			path = mainCode;
 			sourceTree = "<group>";
@@ -107,7 +115,6 @@
 		85C2BE862079813B88434336 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01E76CFB2C33EACC00143560 /* QuicklySwift.framework */,
 				6194B4B3B6D31134F31BB2D6 /* Pods_LocalTool.framework */,
 			);
 			name = Frameworks;
@@ -134,7 +141,6 @@
 				01E76CD72C33B1F300143560 /* Frameworks */,
 				01E76CD82C33B1F300143560 /* Resources */,
 				C634957A8A9D7D452C50953F /* [CP] Embed Pods Frameworks */,
-				514564D3CA3CAC54F345DA16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C7CE1C2C4623C500C0C4E8 /* testSearchVC.xib in Resources */,
 				01E76CEA2C33B1F400143560 /* Assets.xcassets in Resources */,
 				01E76CED2C33B1F400143560 /* Base in Resources */,
 				01E76CE82C33B1F300143560 /* Base in Resources */,
@@ -192,23 +199,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		514564D3CA3CAC54F345DA16 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LocalTool/Pods-LocalTool-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LocalTool/Pods-LocalTool-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalTool/Pods-LocalTool-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7BCE485378F289D80D530724 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,9 +247,9 @@
 			files = (
 				01E76CFA2C33EA8B00143560 /* File.swift in Sources */,
 				01E76CE52C33B1F300143560 /* ViewController.m in Sources */,
-				01B46BF52C3B872800FC0744 /* XMFriendsCircleDynamicHelper.m in Sources */,
 				01E76CDF2C33B1F300143560 /* AppDelegate.m in Sources */,
 				01E76CF02C33B1F400143560 /* main.m in Sources */,
+				01C7CE1D2C4623C500C0C4E8 /* testSearchVC.m in Sources */,
 				01E76CE22C33B1F300143560 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2PF46GCFF;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocalTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2PF46GCFF;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocalTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -1,31 +1,42 @@
 PODS:
-  - LKUIKit (0.0.1)
-  - QuicklySwift (0.8.0):
-    - SnapKit
-  - SnapKit (5.7.1)
+  - LKUIDisplayModule (0.1.0):
+    - LKUtils
+    - Masonry
+    - YYText
+  - LKUtils (0.1.0):
+    - YYCategories
+  - Masonry (1.1.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
   - YYText (1.0.7)
 
 DEPENDENCIES:
-  - LKUIKit (from `../LKLib/LKUIKit`)
-  - QuicklySwift
+  - LKUIDisplayModule (from `./LKLib/LKUIDisplayModule`)
+  - LKUtils (from `./LKLib/LKUtils`)
+  - Masonry
+  - YYCategories
   - YYText
 
 SPEC REPOS:
   trunk:
-    - QuicklySwift
-    - SnapKit
+    - Masonry
+    - YYCategories
     - YYText
 
 EXTERNAL SOURCES:
-  LKUIKit:
-    :path: "../LKLib/LKUIKit"
+  LKUIDisplayModule:
+    :path: "./LKLib/LKUIDisplayModule"
+  LKUtils:
+    :path: "./LKLib/LKUtils"
 
 SPEC CHECKSUMS:
-  LKUIKit: 37cd8ffd8c3f25ea1b02097425f8e778357ed628
-  QuicklySwift: 80500fa7115415902b0a0626f21c816966cf3727
-  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  LKUIDisplayModule: 2b9f6f30ce5d8e3a76ca957c86ea2ce9c2a98fe1
+  LKUtils: 70ef41c29a8fa565ba9a22e785bedd226b82680d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 91b4e05dbf57173085de6a6b9714889a6f07a89c
+PODFILE CHECKSUM: 197abd7d93f9e81ee489b350b70b1b3ff96905ea
 
 COCOAPODS: 1.15.2

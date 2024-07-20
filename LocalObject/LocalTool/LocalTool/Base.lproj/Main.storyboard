@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Yh-kO-daI">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -8,9 +8,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="1of-fy-TJL">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="0Yh-kO-daI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gBR-0u-U49">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TnY-AK-Vqm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7C-aS-fwX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-715" y="-27"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -36,19 +52,43 @@
                                     <action selector="showSomePopMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NV7-Ar-xiM"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jP1-3N-x8l">
+                                <rect key="frame" x="0.0" y="59" width="393" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w77-3h-yz3">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="searchTrans"/>
+                                        <connections>
+                                            <action selector="gotoSearchTrans:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XGy-BZ-ZCb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="w77-3h-yz3" secondAttribute="bottom" id="Fdt-ci-3ip"/>
+                                    <constraint firstItem="w77-3h-yz3" firstAttribute="leading" secondItem="jP1-3N-x8l" secondAttribute="leading" id="NIM-qN-sOA"/>
+                                    <constraint firstAttribute="height" constant="50" id="fRH-JW-lxN"/>
+                                    <constraint firstAttribute="trailing" secondItem="w77-3h-yz3" secondAttribute="trailing" id="oet-Vf-TDj"/>
+                                    <constraint firstItem="w77-3h-yz3" firstAttribute="top" secondItem="jP1-3N-x8l" secondAttribute="top" id="qFa-fT-BFV"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jP1-3N-x8l" secondAttribute="trailing" id="12y-Ni-csn"/>
+                            <constraint firstItem="jP1-3N-x8l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IYY-xb-B2c"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i65-80-3Hl" secondAttribute="trailing" constant="20" id="Tuw-qB-ZWh"/>
                             <constraint firstItem="9AO-Wt-TMx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="U2y-jm-rqb"/>
                             <constraint firstItem="i65-80-3Hl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c04-p1-xAg"/>
                             <constraint firstItem="9AO-Wt-TMx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lav-mw-zqw"/>
+                            <constraint firstItem="jP1-3N-x8l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sb7-Nx-F0J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="i65-80-3Hl" secondAttribute="bottom" constant="80" id="vaR-wx-vPM"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="dn8-1J-aSK"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131" y="-27"/>
         </scene>
