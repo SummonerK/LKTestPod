@@ -1,6 +1,0 @@
-framework module LKUIDisplayModule {
-  umbrella header "LKUIDisplayModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

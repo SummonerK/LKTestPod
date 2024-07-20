@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48F9650CD503DE4FC9886D4EB3277511"
-               BuildableName = "LKUIDisplayModule.framework"
-               BlueprintName = "LKUIDisplayModule"
+               BlueprintIdentifier = "F0FC0D2C8A811BB8867786BE4437A698"
+               BuildableName = "LKDisplayModule.framework"
+               BlueprintName = "LKDisplayModule"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

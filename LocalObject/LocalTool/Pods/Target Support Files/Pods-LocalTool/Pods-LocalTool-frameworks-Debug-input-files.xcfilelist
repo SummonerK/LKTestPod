@@ -1,5 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-LocalTool/Pods-LocalTool-frameworks.sh
-${BUILT_PRODUCTS_DIR}/LKUIDisplayModule/LKUIDisplayModule.framework
+${BUILT_PRODUCTS_DIR}/LKDisplayModule/LKDisplayModule.framework
 ${BUILT_PRODUCTS_DIR}/LKUtils/LKUtils.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework

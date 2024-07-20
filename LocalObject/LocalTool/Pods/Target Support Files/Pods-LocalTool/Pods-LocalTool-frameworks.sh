@@ -176,14 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LKUIDisplayModule/LKUIDisplayModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LKDisplayModule/LKDisplayModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LKUtils/LKUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LKUIDisplayModule/LKUIDisplayModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LKDisplayModule/LKDisplayModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LKUtils/LKUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework"

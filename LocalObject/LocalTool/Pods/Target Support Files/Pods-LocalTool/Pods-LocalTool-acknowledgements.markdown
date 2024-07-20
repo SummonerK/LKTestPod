@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## LKUIDisplayModule
+## LKDisplayModule
 
 Copyright (c) 2024 luofei <solluffy@163.com>
 

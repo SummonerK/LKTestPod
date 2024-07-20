@@ -10,8 +10,9 @@
 #endif
 #endif
 
+#import "LKVC.h"
 #import "UserAgreeVC.h"
 
-FOUNDATION_EXPORT double LKUIDisplayModuleVersionNumber;
-FOUNDATION_EXPORT const unsigned char LKUIDisplayModuleVersionString[];
+FOUNDATION_EXPORT double LKDisplayModuleVersionNumber;
+FOUNDATION_EXPORT const unsigned char LKDisplayModuleVersionString[];
 

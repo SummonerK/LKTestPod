@@ -13,6 +13,6 @@ target 'LocalTool' do
   
   #导入本地私有库
   pod 'LKUtils',                :path =>'./LKLib/LKUtils'
-  pod 'LKUIDisplayModule',      :path =>'./LKLib/LKUIDisplayModule'
+  pod 'LKDisplayModule',        :path =>'./LKLib/LKDisplayModule'
 
 end
