@@ -18,9 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LKUtils/Classes/**/*",
+  "source_files": "LKUtils/**/*.{swift,h,m}",
+  "public_header_files": "Pod/**/LKUtils.h",
   "dependencies": {
     "YYCategories": [
+
+    ],
+    "MJRefresh": [
 
     ]
   }

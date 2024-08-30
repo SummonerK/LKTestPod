@@ -39,4 +39,17 @@
     }
 }
 
++ (UIColor *)LKColorWithHex:(NSString *)hexStr {
+    return [UIColor colorWithHexString:hexStr];
+}
+
++ (UIColor *)LKRandomColor{
+    CGFloat red   = ((CGFloat) (arc4random() % 158) + 49)/ 255.0;
+    CGFloat green = ((CGFloat) (arc4random() % 158) + 49)/ 255.0;
+    CGFloat blue  = ((CGFloat) (arc4random() % 158) + 49)/ 255.0;
+    CGFloat alpha = 1.0; // 如果需要透明度，可以更改此值
+    
+    return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
+}
+
 @end

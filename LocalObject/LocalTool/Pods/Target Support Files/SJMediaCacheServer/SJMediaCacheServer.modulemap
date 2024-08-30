@@ -1,0 +1,6 @@
+module SJMediaCacheServer {
+  umbrella header "SJMediaCacheServer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module LKMediaKit {
+  umbrella header "LKMediaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

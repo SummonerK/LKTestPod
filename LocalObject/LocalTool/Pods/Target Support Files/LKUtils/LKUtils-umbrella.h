@@ -13,7 +13,11 @@
 #import "LKGenesis.h"
 #import "LKMacroDefine.h"
 #import "SearchTransitionAnimator.h"
+#import "LkStateNoneFooter.h"
+#import "UIApplication+Ext.h"
 #import "UIColor+LKExt.h"
+#import "UIScrollView+refresh.h"
+#import "XMTokenBucketLogManager.h"
 
 FOUNDATION_EXPORT double LKUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char LKUtilsVersionString[];

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F0FC0D2C8A811BB8867786BE4437A698"
-               BuildableName = "LKDisplayModule.framework"
+               BuildableName = "libLKDisplayModule.a"
                BlueprintName = "LKDisplayModule"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

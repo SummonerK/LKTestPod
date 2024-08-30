@@ -1,0 +1,24 @@
+{
+  "name": "LKMediaKit",
+  "version": "0.1.0",
+  "summary": "A short description of LKMediaKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luofei/LKMediaKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luofei": "solluffy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/luofei/LKMediaKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "source_files": "LKMediaKit/Classes/**/*.{swift,h,m}"
+}

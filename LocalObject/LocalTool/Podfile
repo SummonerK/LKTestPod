@@ -1,18 +1,28 @@
 # Uncomment the next line to define a global platform for your project
+
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 platform :ios, '13.0'
 
 target 'LocalTool' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+#  use_frameworks!
 
+  use_modular_headers!
   # Pods for LocalTool
   pod 'YYText'
   pod 'Masonry'
   pod 'YYCategories'
+#  pod 'SJVideoPlayer'
+  pod 'SJUIKit/SQLite3', :podspec => 'https://gitee.com/changsanjiang/SJUIKit/raw/master/SJUIKit-YYModel.podspec'
+  pod 'SJMediaCacheServer'
+  pod 'MJRefresh'
+  pod 'LookinServer', :configurations => ['Debug','Debug1','Test','Release']
+  pod 'SVGAPlayer'
 
   
   #导入本地私有库
   pod 'LKUtils',                :path =>'./LKLib/LKUtils'
   pod 'LKDisplayModule',        :path =>'./LKLib/LKDisplayModule'
+  pod 'LKMediaKit',             :path =>'./LKLib/LKMediaKit'
 
 end

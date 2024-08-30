@@ -18,7 +18,15 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "LKDisplayModule/Classes/**/*",
+  "source_files": "LKDisplayModule/Classes/**/*.{swift,h,m}",
+  "resource_bundles": {
+    "LKDisplayModule": [
+      "LKDisplayModule/Assets/*.bundle",
+      "LKDisplayModule/Assets/*.xcassets",
+      "LKDisplayModule/Assets/*.json",
+      "LKDisplayModule/Assets/*.svga"
+    ]
+  },
   "dependencies": {
     "Masonry": [
 
@@ -27,6 +35,15 @@
 
     ],
     "LKUtils": [
+
+    ],
+    "SJUIKit/SQLite3": [
+
+    ],
+    "SJMediaCacheServer": [
+
+    ],
+    "SVGAPlayer": [
 
     ]
   }

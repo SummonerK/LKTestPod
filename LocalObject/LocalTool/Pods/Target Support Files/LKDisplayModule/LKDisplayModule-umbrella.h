@@ -10,6 +10,21 @@
 #endif
 #endif
 
+#import "IBMainTabVC.h"
+#import "IBTabVCConfig.h"
+#import "PageListModel.h"
+#import "TabbarItemDataModel.h"
+#import "videoCacheVC.h"
+#import "showSvgVC.h"
+#import "LKSVGPlayer.h"
+#import "showTableACollectionTestViewVC.h"
+#import "showTableACollectionVC.h"
+#import "showTableACollectionTestView.h"
+#import "UICollectionViewLeftAlignedLayout.h"
+#import "tabHomeVC.h"
+#import "tabAnimationVC.h"
+#import "tabSafeVC.h"
+#import "tabUEVC.h"
 #import "LKVC.h"
 #import "UserAgreeVC.h"
 

@@ -1,4 +1,4 @@
-framework module LKDisplayModule {
+module LKDisplayModule {
   umbrella header "LKDisplayModule-umbrella.h"
 
   export *

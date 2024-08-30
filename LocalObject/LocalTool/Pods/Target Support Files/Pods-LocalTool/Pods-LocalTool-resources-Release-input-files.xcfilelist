@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-LocalTool/Pods-LocalTool-resources.sh
-${PODS_CONFIGURATION_BUILD_DIR}/LKUIDisplayModule/LKUIDisplayModule.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/LKDisplayModule/LKDisplayModule.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf_Privacy.bundle

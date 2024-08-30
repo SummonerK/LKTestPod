@@ -97,10 +97,34 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LKUIDisplayModule/LKUIDisplayModule.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LKDisplayModule/LKDisplayModule.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf_Privacy.bundle"
+fi
+if [[ "$CONFIGURATION" == "Test" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LKDisplayModule/LKDisplayModule.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf_Privacy.bundle"
+fi
+if [[ "$CONFIGURATION" == "Debug1" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LKDisplayModule/LKDisplayModule.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf_Privacy.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LKUIDisplayModule/LKUIDisplayModule.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LKDisplayModule/LKDisplayModule.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf_Privacy.bundle"
+fi
+if [[ "$CONFIGURATION" == "AppStore" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LKDisplayModule/LKDisplayModule.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf_Privacy.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

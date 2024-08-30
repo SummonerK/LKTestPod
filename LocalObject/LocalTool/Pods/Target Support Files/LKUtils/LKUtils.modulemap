@@ -1,4 +1,4 @@
-framework module LKUtils {
+module LKUtils {
   umbrella header "LKUtils-umbrella.h"
 
   export *

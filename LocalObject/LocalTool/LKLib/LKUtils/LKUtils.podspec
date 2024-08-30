@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LKUtils/Classes/**/*'
+  s.source_files = 'LKUtils/**/*.{swift,h,m}'
+  s.public_header_files = 'Pod/**/LKUtils.h'
   
   # s.resource_bundles = {
   #   'LKUtils' => ['LKUtils/Assets/*.png']
@@ -41,5 +42,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.dependency 'YYCategories'
+  s.dependency 'MJRefresh'
   
 end

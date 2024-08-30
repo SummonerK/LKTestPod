@@ -23,6 +23,10 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - darkHexStr: 深色模式十六进制颜色 ， 如：[UIColor colorWithHexString:@"#000000"
 + (UIColor *)LKColorWithColorLight:(UIColor *)light dark:(UIColor *)dark;
 
++ (UIColor *)LKColorWithHex:(NSString *)hexStr;
+
++ (UIColor *)LKRandomColor;
+
 @end
 
 NS_ASSUME_NONNULL_END
