@@ -1,0 +1,28 @@
+{
+  "name": "LKIconFontKit",
+  "version": "0.1.0",
+  "summary": "A short description of LKIconFontKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luofei/LKIconFontKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luofei": "solluffy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/luofei/LKIconFontKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LKIconFontKit/Classes/**/*",
+  "resource_bundles": {
+    "LKIconFontKit": [
+      "LKIconFontKit/Assets/*.png",
+      "LKIconFontKit/Resources/*.{ttf}"
+    ]
+  }
+}

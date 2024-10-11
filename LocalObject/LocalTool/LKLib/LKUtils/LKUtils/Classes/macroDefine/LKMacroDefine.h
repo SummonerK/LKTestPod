@@ -34,7 +34,8 @@
 // 设置浅色模式十六进制颜色和十六进制深色模式颜色 如：kColorWithLightAndDarkHexStr(@"#ffffff", @"#1d1d1d")
 #define kColorWithLightAndDarkHexStr(arg1, arg2) [UIColor LKColorWithLightHex:arg1 darkHex:arg2]
 
-#define kColorRandom [UIColor LKRandomColor]
+#define kColorRandom [UIColor LKRandomColor:1.0]
+#define kColorRandomWithAlpha(arg) [UIColor LKRandomColor:arg]
 
 #pragma mark - 字体
 #define kFontDINAlternateBold(float) [UIFont fontWithName:@"DINAlternate-Bold" size:float]

@@ -1,0 +1,6 @@
+module LKIconFontKit {
+  umbrella header "LKIconFontKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

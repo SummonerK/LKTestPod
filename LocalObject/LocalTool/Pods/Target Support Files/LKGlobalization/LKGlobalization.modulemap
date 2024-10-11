@@ -1,0 +1,6 @@
+module LKGlobalization {
+  umbrella header "LKGlobalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,7 @@
 #import "PageListModel.h"
 #import "TabbarItemDataModel.h"
 #import "videoCacheVC.h"
+#import "LKFontViewController.h"
 #import "showSvgVC.h"
 #import "LKSVGPlayer.h"
 #import "showTableACollectionTestViewVC.h"

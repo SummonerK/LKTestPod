@@ -24,8 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)LKColorWithColorLight:(UIColor *)light dark:(UIColor *)dark;
 
 + (UIColor *)LKColorWithHex:(NSString *)hexStr;
-
-+ (UIColor *)LKRandomColor;
+/// 随机颜色
++ (UIColor *)LKRandomColor:(CGFloat)withAlpha;
 
 @end
 

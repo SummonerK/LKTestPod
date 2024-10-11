@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LKBaseNaviController.h"
 #import "LKGenesis.h"
 #import "LKMacroDefine.h"
 #import "SearchTransitionAnimator.h"

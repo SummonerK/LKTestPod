@@ -1,12 +1,16 @@
 PODS:
   - CocoaAsyncSocket (7.6.5)
   - LKDisplayModule (0.1.0):
+    - LKGlobalization
+    - LKIconFontKit
     - LKUtils
     - Masonry
     - SJMediaCacheServer
     - SJUIKit/SQLite3
     - SVGAPlayer
     - YYText
+  - LKGlobalization (0.1.0)
+  - LKIconFontKit (0.1.0)
   - LKMediaKit (0.1.0)
   - LKUtils (0.1.0):
     - MJRefresh
@@ -53,6 +57,8 @@ PODS:
 
 DEPENDENCIES:
   - LKDisplayModule (from `./LKLib/LKDisplayModule`)
+  - LKGlobalization (from `./LKLib/LKGlobalization`)
+  - LKIconFontKit (from `./LKLib/LKIconFontKit`)
   - LKMediaKit (from `./LKLib/LKMediaKit`)
   - LKUtils (from `./LKLib/LKUtils`)
   - LookinServer
@@ -82,6 +88,10 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   LKDisplayModule:
     :path: "./LKLib/LKDisplayModule"
+  LKGlobalization:
+    :path: "./LKLib/LKGlobalization"
+  LKIconFontKit:
+    :path: "./LKLib/LKIconFontKit"
   LKMediaKit:
     :path: "./LKLib/LKMediaKit"
   LKUtils:
@@ -91,7 +101,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  LKDisplayModule: ec504a63b8c7574591a2270d2632ebffbe5ecf40
+  LKDisplayModule: e445dce61a170235edff08217ffb2fdce9805d72
+  LKGlobalization: fd6a54a6ffa32c5afc439c46f5fc947dfba43246
+  LKIconFontKit: b3cdf5acf53ae6e5b79295382dbafcc38c47069d
   LKMediaKit: 12f6eba1ced2b593b66ae4ec1219228e799960bb
   LKUtils: 079a1fd7156892e5fce727551e53c4b8fa1bc452
   LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
@@ -106,6 +118,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: c1293b535100ac0f913430b6462ccb1017ae2926
+PODFILE CHECKSUM: 175afffc70ebc689108a7e2ef2cc668eb0e394f6
 
 COCOAPODS: 1.15.2

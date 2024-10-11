@@ -2,6 +2,7 @@
 
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 platform :ios, '13.0'
+install! 'cocoapods', :disable_input_output_paths => true
 
 target 'LocalTool' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -23,6 +24,8 @@ target 'LocalTool' do
   #导入本地私有库
   pod 'LKUtils',                :path =>'./LKLib/LKUtils'
   pod 'LKDisplayModule',        :path =>'./LKLib/LKDisplayModule'
+  pod 'LKGlobalization',        :path =>'./LKLib/LKGlobalization'
   pod 'LKMediaKit',             :path =>'./LKLib/LKMediaKit'
+  pod 'LKIconFontKit',          :path =>'./LKLib/LKIconFontKit'
 
 end
