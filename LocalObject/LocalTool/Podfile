@@ -12,20 +12,26 @@ target 'LocalTool' do
   # Pods for LocalTool
   pod 'YYText'
   pod 'Masonry'
+  pod 'SnapKit'
   pod 'YYCategories'
 #  pod 'SJVideoPlayer'
-  pod 'SJUIKit/SQLite3', :podspec => 'https://gitee.com/changsanjiang/SJUIKit/raw/master/SJUIKit-YYModel.podspec'
-  pod 'SJMediaCacheServer'
+#  pod 'SJUIKit/SQLite3', :podspec => 'https://gitee.com/changsanjiang/SJUIKit/raw/master/SJUIKit-YYModel.podspec'
+#  pod 'SJMediaCacheServer'
   pod 'MJRefresh'
   pod 'LookinServer', :configurations => ['Debug','Debug1','Test','Release']
   pod 'SVGAPlayer'
+  pod 'JKSwiftExtension'
+  pod 'SDCycleScrollView'
+  pod 'RealmSwift'
+  pod 'Toast-Swift',               '5.0.1'
+  pod 'JXPagingView/Paging'
 
   
   #导入本地私有库
   pod 'LKUtils',                :path =>'./LKLib/LKUtils'
-  pod 'LKDisplayModule',        :path =>'./LKLib/LKDisplayModule'
-  pod 'LKGlobalization',        :path =>'./LKLib/LKGlobalization'
   pod 'LKMediaKit',             :path =>'./LKLib/LKMediaKit'
   pod 'LKIconFontKit',          :path =>'./LKLib/LKIconFontKit'
+  pod 'LKDisplayModule',        :path =>'./LKLib/LKBusiness/LKDisplayModule'
+  pod 'LKGlobalization',        :path =>'./LKLib/LKBusiness/LKGlobalization'
 
 end

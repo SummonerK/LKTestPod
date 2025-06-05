@@ -8,6 +8,7 @@
 #ifndef LKMacroDefine_h
 #define LKMacroDefine_h
 #import "UIColor+LKExt.h"
+#import "UIApplication+Ext.h"
 
 /////////////////////////////////////////////////////////////////////////////////
 //

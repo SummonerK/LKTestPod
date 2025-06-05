@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIWindow *)xm_keyWindow;
 
++ (void)makeToast:(nullable NSString *)str;
+
 @end
 
 NS_ASSUME_NONNULL_END

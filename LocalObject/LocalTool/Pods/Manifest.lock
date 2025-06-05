@@ -1,13 +1,18 @@
 PODS:
-  - CocoaAsyncSocket (7.6.5)
+  - JKSwiftExtension (2.7.1)
+  - JXPagingView/Paging (2.1.3)
   - LKDisplayModule (0.1.0):
+    - JKSwiftExtension
+    - JXPagingView/Paging
     - LKGlobalization
     - LKIconFontKit
     - LKUtils
     - Masonry
-    - SJMediaCacheServer
-    - SJUIKit/SQLite3
+    - RealmSwift
+    - SDCycleScrollView
+    - SnapKit
     - SVGAPlayer
+    - Toast-Swift
     - YYText
   - LKGlobalization (0.1.0)
   - LKIconFontKit (0.1.0)
@@ -20,26 +25,18 @@ PODS:
   - LookinServer/Core (1.2.8)
   - Masonry (1.1.0)
   - MJRefresh (3.7.9)
-  - Protobuf (3.27.1)
-  - SJMediaCacheServer (1.7.8):
-    - SJMediaCacheServer/Core (= 1.7.8)
-    - SJMediaCacheServer/KTVCocoaHTTPServer (= 1.7.8)
-    - SJUIKit/SQLite3
-  - SJMediaCacheServer/Core (1.7.8):
-    - SJMediaCacheServer/KTVCocoaHTTPServer
-    - SJUIKit/SQLite3
-  - SJMediaCacheServer/KTVCocoaHTTPServer (1.7.8):
-    - CocoaAsyncSocket
-    - SJUIKit/SQLite3
-  - SJUIKit/SQLite3 (0.0.0.59):
-    - SJUIKit/SQLite3/Core (= 0.0.0.59)
-    - SJUIKit/SQLite3/Protocol (= 0.0.0.59)
-    - YYModel
-  - SJUIKit/SQLite3/Core (0.0.0.59):
-    - SJUIKit/SQLite3/Protocol
-    - YYModel
-  - SJUIKit/SQLite3/Protocol (0.0.0.59):
-    - YYModel
+  - Protobuf (3.28.3)
+  - Realm (20.0.0):
+    - Realm/Headers (= 20.0.0)
+  - Realm/Headers (20.0.0)
+  - RealmSwift (20.0.0):
+    - Realm (= 20.0.0)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SnapKit (5.7.1)
   - SSZipArchive (2.4.3)
   - SVGAPlayer (2.5.7):
     - SVGAPlayer/Core (= 2.5.7)
@@ -49,75 +46,85 @@ PODS:
     - SVGAPlayer/ProtoFiles
   - SVGAPlayer/ProtoFiles (2.5.7):
     - Protobuf (~> 3.4)
+  - Toast-Swift (5.0.1)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
-  - YYModel (1.0.4)
   - YYText (1.0.7)
 
 DEPENDENCIES:
-  - LKDisplayModule (from `./LKLib/LKDisplayModule`)
-  - LKGlobalization (from `./LKLib/LKGlobalization`)
+  - JKSwiftExtension
+  - JXPagingView/Paging
+  - LKDisplayModule (from `./LKLib/LKBusiness/LKDisplayModule`)
+  - LKGlobalization (from `./LKLib/LKBusiness/LKGlobalization`)
   - LKIconFontKit (from `./LKLib/LKIconFontKit`)
   - LKMediaKit (from `./LKLib/LKMediaKit`)
   - LKUtils (from `./LKLib/LKUtils`)
   - LookinServer
   - Masonry
   - MJRefresh
-  - SJMediaCacheServer
-  - SJUIKit/SQLite3 (from `https://gitee.com/changsanjiang/SJUIKit/raw/master/SJUIKit-YYModel.podspec`)
+  - RealmSwift
+  - SDCycleScrollView
+  - SnapKit
   - SVGAPlayer
+  - Toast-Swift (= 5.0.1)
   - YYCategories
   - YYText
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
-    - CocoaAsyncSocket
+    - JKSwiftExtension
+    - JXPagingView
     - LookinServer
+    - Masonry
     - MJRefresh
     - Protobuf
-    - SJMediaCacheServer
+    - Realm
+    - RealmSwift
+    - SDCycleScrollView
+    - SDWebImage
+    - SnapKit
     - SSZipArchive
     - SVGAPlayer
-    - YYModel
-  trunk:
-    - Masonry
+    - Toast-Swift
     - YYCategories
     - YYText
 
 EXTERNAL SOURCES:
   LKDisplayModule:
-    :path: "./LKLib/LKDisplayModule"
+    :path: "./LKLib/LKBusiness/LKDisplayModule"
   LKGlobalization:
-    :path: "./LKLib/LKGlobalization"
+    :path: "./LKLib/LKBusiness/LKGlobalization"
   LKIconFontKit:
     :path: "./LKLib/LKIconFontKit"
   LKMediaKit:
     :path: "./LKLib/LKMediaKit"
   LKUtils:
     :path: "./LKLib/LKUtils"
-  SJUIKit:
-    :podspec: https://gitee.com/changsanjiang/SJUIKit/raw/master/SJUIKit-YYModel.podspec
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  LKDisplayModule: e445dce61a170235edff08217ffb2fdce9805d72
-  LKGlobalization: fd6a54a6ffa32c5afc439c46f5fc947dfba43246
-  LKIconFontKit: b3cdf5acf53ae6e5b79295382dbafcc38c47069d
-  LKMediaKit: 12f6eba1ced2b593b66ae4ec1219228e799960bb
-  LKUtils: 079a1fd7156892e5fce727551e53c4b8fa1bc452
+  JKSwiftExtension: 5b2150fe720d39bb3b1dea411b2cce92d68d4de0
+  JXPagingView: afdd2e9af09c90160dd232b970d603cc6e7ddd0e
+  LKDisplayModule: 76ea7e35a0ed784690db8b51e2a096fe69b25864
+  LKGlobalization: 3c1958d4ece366b9b5114c6c592c347e1d371d59
+  LKIconFontKit: 33cfe25774960c8795b292d067b258073e6d9af8
+  LKMediaKit: e62df5b82ec64d80e8a6a9a62674412fe543142c
+  LKUtils: 3ab620c19c99584e8c8e39bffab64a10c4f2e897
   LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
-  Protobuf: f1b82a3ffb1c8f13d20e141a838c411840e1c223
-  SJMediaCacheServer: 95bebce42f281fccaff25a5e8284022478ff7ba5
-  SJUIKit: 46032eca55557b472c794578641dfe480550ed03
+  Protobuf: 5a8a7781d8e1004302f108977ac2d5b99323146f
+  Realm: a799b5f9145623fb0bfe149fe81422863631dd0f
+  RealmSwift: f8c4354ebd5053343e6ab9f4eda244145308a51e
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   SVGAPlayer: 318b85a78b61292d6ae9dfcd651f3f0d1cdadd86
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 175afffc70ebc689108a7e2ef2cc668eb0e394f6
+PODFILE CHECKSUM: b509e6604a136b7546b878e1afdb49fa24e14164
 
 COCOAPODS: 1.15.2

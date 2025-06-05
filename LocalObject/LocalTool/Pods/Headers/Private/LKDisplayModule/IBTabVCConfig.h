@@ -1,1 +1,1 @@
-../../../../LKLib/LKDisplayModule/LKDisplayModule/Classes/LKTabC/IBTabVCConfig.h
+../../../../LKLib/LKBusiness/LKDisplayModule/LKDisplayModule/Classes/LKTabC/IBTabVCConfig.h

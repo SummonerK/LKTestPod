@@ -1,1 +1,1 @@
-../../../../LKLib/LKDisplayModule/LKDisplayModule/Classes/LKTabs/home/showTableACollection/showTableACollectionVC.h
+../../../../LKLib/LKBusiness/LKDisplayModule/LKDisplayModule/Classes/LKTabs/home/showTableACollection/showTableACollectionVC.h

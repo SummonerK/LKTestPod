@@ -1,4 +1,4 @@
-framework module Pods_LocalTool {
+module Pods_LocalTool {
   umbrella header "Pods-LocalTool-umbrella.h"
 
   export *

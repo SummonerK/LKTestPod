@@ -6,6 +6,7 @@
 //
 
 #import "UIApplication+Ext.h"
+#import "UIView+TUIToast.h"
 
 @implementation UIApplication (Ext)
 
@@ -35,6 +36,10 @@
         keyWindow = self.delegate.window;
     }
     return keyWindow;
+}
+
++ (void)makeToast:(nullable NSString *)str {
+    [[self sharedApplication].xm_keyWindow makeToast:str];
 }
 
 @end

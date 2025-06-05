@@ -13,6 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LKFont : FAKIcon
 
+/// 返回LKFont iconFont
+/// - Parameters:
+///   - key: key
+///   - size: size
++ (instancetype)LKFontWithKey:(NSString*)key Size:(CGFloat)size;
+
 + (instancetype)LKFontweibiaotiWithSize:(CGFloat)size;
 
 + (instancetype)LKFontxuanzhongWithSize:(CGFloat)size;

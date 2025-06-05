@@ -15,15 +15,20 @@
     "git": "https://github.com/luofei/LKDisplayModule.git",
     "tag": "0.1.0"
   },
+  "swift_versions": [
+    "5.1",
+    "5.2",
+    "5.3"
+  ],
+  "requires_arc": true,
+  "frameworks": "UIKit",
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "source_files": "LKDisplayModule/Classes/**/*.{swift,h,m}",
   "resource_bundles": {
-    "LKDisplayModule": [
-      "LKDisplayModule/Assets/*.bundle",
+    "LKDisplayBundle": [
       "LKDisplayModule/Assets/*.xcassets",
-      "LKDisplayModule/Assets/*.json",
       "LKDisplayModule/Assets/*.svga"
     ]
   },
@@ -34,13 +39,25 @@
     "YYText": [
 
     ],
+    "JKSwiftExtension": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "RealmSwift": [
+
+    ],
+    "Toast-Swift": [
+
+    ],
+    "JXPagingView/Paging": [
+
+    ],
     "LKUtils": [
-
-    ],
-    "SJUIKit/SQLite3": [
-
-    ],
-    "SJMediaCacheServer": [
 
     ],
     "SVGAPlayer": [
@@ -52,5 +69,6 @@
     "LKIconFontKit": [
 
     ]
-  }
+  },
+  "swift_version": "5.3"
 }
